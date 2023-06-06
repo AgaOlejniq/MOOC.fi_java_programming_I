@@ -1,0 +1,1 @@
+Get-ChildItem C:\Users\aolej\Desktop\part3\ -Filter *.java -Recurse -Exclude *Test* | Copy-Item -Destination C:\Users\aolej\Desktop\solutions\part3\ -Force -PassThru
